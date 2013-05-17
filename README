@@ -1,0 +1,15 @@
++// Clock program for DX 32*8 LED Matrix + HT1632C + ATmega8; 
++// DrJones 2012
++//
++// Clock with Tics for JY-MCU 3208 by Michael LeBlanc, NSCAD University
++// http://generaleccentric.net
++// March 2013
++//
++// Version 002 adds typography for letters
++// Version 003 adds randomize
++// Version 004 replaces manual brightness control with Child Safe (swearwords off) mode,
++// corrects randomization functions and uses CdS cell on AD0 for auto brightness control
++//
++// button1: adjust time forward, keep pressed for a while for fast forward
++// button2: adjust time backward, keep pressed for a while for fast backward
++// button3: toggle "Child Safe" mode
